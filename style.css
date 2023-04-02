@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px !important;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    padding: 0 !important;
+    position: fixed;
+    z-index: 1;
+    
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 70px;
+   
+}
+.logo{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 70px;
+}
+.logo:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+nav ul li a:hover{
+    color: #e74c3c;
+}
+body{
+    overflow-x: hidden;
+}
+.img1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)) , url(images/img1.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)) , url(images/img2.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)) , url(images/img3.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-carousel{
+   inset: 0 !important; 
+   padding-left: 0 !important;
+}
+
+
+.slider, .slider ul, .slider ul li{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.slider h2{
+    padding-top: 260px;
+    font-weight: bold;
+}
+.slider span{
+    color: orange;
+}
+
+.slider i{
+    padding: 10px;
+}
+
+.slider .btn{
+    padding: 10px 50px;
+}
+.slider .btn-first{
+    background-color: turquoise;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.slider .btn-second{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.slider .btn-first:hover, .slider .btn-second:hover{
+    color: white;
+}
+
